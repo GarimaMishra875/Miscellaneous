@@ -1,0 +1,7 @@
+l=int(input())
+u=int(input())
+for i in range(l,u+1):
+  a=1
+  for j in range(2,a/2):
+    if a%2==0:
+      raise Exeception('primt number')
