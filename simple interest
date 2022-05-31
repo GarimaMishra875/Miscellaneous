@@ -1,0 +1,9 @@
+try:
+    p=int(input('enter principal : '))
+    r=int(input('enter rate : '))
+    if r>100:
+        raise ValueError(r)
+    t=int(input('enter time : '))
+    print('simple interest : ',(p*r*t)/100)
+except ValueError:
+    print("please enter a valid rate")
