@@ -1,0 +1,3 @@
+import math  
+x=int(input('enyter a number :'))
+print(math.sqrt(x))
