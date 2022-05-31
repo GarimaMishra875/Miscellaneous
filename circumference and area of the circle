@@ -1,0 +1,3 @@
+import math  
+r=int(input('enter the radius :'))
+print('circumference : ',2*math.pi*r,'\narea : ',math.pi*r*r)
