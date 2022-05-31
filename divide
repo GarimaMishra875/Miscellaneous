@@ -1,0 +1,6 @@
+try:
+    x=int(input('enter the dividend : '))
+    y=int(input('enter the divisor : '))
+    print('the answer is : ',x/y)
+except:
+    print("can't divide with zero \n please enter a different number")
